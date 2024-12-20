@@ -1,0 +1,110 @@
+body{
+    overflow-x: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+}
+
+#logo{
+    max-width: 7%;
+    max-height: 9%;
+}
+
+#navbarNav a{
+    font-size: 20px;
+    padding: 0 0 0 20px;
+}
+
+#tituloquiz01{
+    margin-top: 130px;
+    text-align: center;
+}
+
+#testesoftware{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+
+#tituloquiz02{
+    text-align: center;
+    margin-top: -50vh;
+}
+
+#textconceito{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px; 
+}
+
+#tituloquiz03{
+    text-align: center;
+    margin-top: -60vh;
+}
+
+#textvida{
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+}
+
+#tituloquiz04{
+    text-align: center;
+    margin-top: -60vh;
+}
+
+#tituloquiz05{
+    text-align: center;
+    margin-top: -60vh;
+}
+
+#rodape{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    height: 15vh;
+    margin-top: -150vh;
+    margin: 0;
+}
+
+@media only screen and (max-width: 440px){
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    #logo{
+        height: 50% !important;
+        width: 50% !important;
+    }
+
+    #testesoftware{
+        font-size: 18px;
+        flex-direction: column;
+        display: flex;
+    }
+
+    #textconceito{
+        font-size: 18px;
+    }
+
+    #textconceito{
+        font-size: 18px;
+    }
+
+    #textvida{
+        font-size: 18px;
+    }
+
+    #paragrafo04{
+        font-size: 18px;
+    }
+
+    #paragrado05{
+        font-size: 18px;
+    }
+}
